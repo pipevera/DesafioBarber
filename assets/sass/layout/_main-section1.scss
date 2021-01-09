@@ -1,0 +1,10 @@
+.main-section1 {
+  padding: 5%;
+  &__parrafo {
+    line-height: 50px;
+    font-family: $roboto;
+    color: $nickel;
+    font-size: $medium;
+    font-weight: $lights;
+  }
+}

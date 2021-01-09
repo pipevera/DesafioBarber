@@ -1,0 +1,10 @@
+.button {
+  padding: 1% 2%;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: $nickel;
+  &:hover {
+    background-color: $light-gray;
+  }
+}

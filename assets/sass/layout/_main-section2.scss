@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  .sm-center {
+    text-align: center;
+  }
+  .descripcion {
+    margin-top: 30px;
+  }
+  .main-section2__profile-picture {
+    width: 40%;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-section2__profile-picture {
+    width: 80%;
+  }
+}
+
+.main-section2 {
+  &__profile-picture {
+    border-radius: 50%;
+  }
+}
+
+.main-section2__nombre {
+  font-family: $playfair-display;
+  font-weight: $black-italic;
+}
+
+.main-section2__link {
+  font-family: $roboto;
+  color: $fuzzy-wuzzy;
+}
+
+.main-section2__descripcion {
+  line-height: 40px;
+  font-family: $roboto;
+  color: $nickel;
+  font-size: $medium;
+  font-weight: $lights;
+}

@@ -1,0 +1,19 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "vendors/bootstrap-4.5.3/bootstrap";
+
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/main-section1";
+@import "layout/main-section2";
+@import "layout/footer";
+
+@import "components/buttons";
+@import "components/links";
+@import "components/pagination";
+@import "components/thumbnails";

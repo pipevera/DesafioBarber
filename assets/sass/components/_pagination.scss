@@ -1,0 +1,27 @@
+.paginador__contenedor {
+  padding: 30px;
+  background-color: $light-gray;
+  ul {
+    .previus {
+      a {
+        border-top-left-radius: 50px !important;
+        border-bottom-left-radius: 50px !important;
+      }
+    }
+    .next {
+      a {
+        border-top-right-radius: 50px !important;
+        border-bottom-right-radius: 50px !important;
+      }
+    }
+  }
+  li {
+    a {
+      color: $nickel;
+    }
+    .selected {
+      background-color: $nickel;
+      color: $white;
+    }
+  }
+}
